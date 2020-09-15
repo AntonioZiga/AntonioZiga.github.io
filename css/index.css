@@ -1,0 +1,183 @@
+html{
+    scroll-behavior: smooth;
+}
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+a:hover{
+    border-bottom-style: solid;   
+}
+
+.divAvatar{
+    position: relative;   
+}
+
+.avatar{
+    position: absolute;   
+    /*transform:translate(115%,-170%);*/
+    transform:translate(-160%,55%);
+}
+
+
+/*Estilos para la seccion habilidades*/
+    .box-habilidades{
+        /*background-color: #2753B7;*/
+        /*color: white;*/
+        height: 300px;
+        border-radius: 20px;
+        box-shadow: none;
+        border: 0.5px solid #2753B7;
+    }
+
+    .box-habilidades p{
+        padding-top: 10px;
+        /*color: white;*/
+    }
+
+    .box-habilidades:hover{
+        box-shadow: 5px 10px 20px #888888;
+        border-bottom: 20px solid #2753B7;
+    }
+/**************/
+
+/*Estilos para la seccion proyectos*/
+    .seccion-proyectos{
+        background-color: #2753B7;
+        height: 92vh;
+    }
+
+    .seccion-proyectos h2{
+        color: white;
+    }
+
+    .columna-proyectos{
+        display: flex;
+        overflow-x: auto;
+    }
+
+    .card-proyectos {
+        border-radius: 0px;
+        padding: 0rem;
+        width: 400px;
+    }
+   
+/**************/
+
+
+/* Estilos para la seccion contactame */
+    .links-redes{
+        text-align: center;
+        font-size: 4rem;
+    }
+
+    .mailtoui-button:focus .mailtoui-button-content {
+        background-color: #2753B7;
+        color: white;
+    }
+
+    .mailtoui-button-content:hover,
+    .mailtoui-button-content:focus,
+    .mailtoui-button-copy:hover,
+    .mailtoui-button-copy:focus {
+        background-color: #2753B7;
+        color: white;
+    }
+
+    .mailtoui-modal-close:focus,
+    .mailtoui-modal-close:hover {
+        color: black;
+        border-bottom: none;
+    }
+    
+/******************/
+
+
+.overflow-ellipsis {
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap; 
+}
+
+/***Estilos para las modales***/
+    /* Estilo para el SlideShow*/
+        /* Slideshow container */
+        .slideshow-container {
+            max-width: 1000px;
+            position: relative;
+            margin: 0;
+        }
+        
+        /* Hide the images by default */
+        .mySlides {
+            display: none;
+        }
+        
+        /* Next & previous buttons */
+        .prev, .next {
+            cursor: pointer;
+            position: absolute;
+            top: 50%;
+            width: auto;
+            padding: 15px;
+            margin-top: -22px;
+            color: white;
+            font-weight: bold;
+            font-size: 18px;
+            border-radius: 0 3px 3px 0;
+            user-select: none;
+        }
+
+        .prev:hover, .next:hover {
+            color: white;
+            border-bottom: none;
+            text-decoration: none !important;
+        }
+        
+        /* Position the "next button" to the right */
+        .next {
+            right: 0;
+            border-radius: 3px 0 0 3px;
+        }
+        
+    
+        /* Number text (1/3 etc) */
+        .numbertext {
+            color: #f2f2f2;
+            font-size: 12px;
+            padding: 8px 12px;
+            position: absolute;
+            top: 0;
+        }
+        
+        /* Fading animation */
+        .fade {
+            -webkit-animation-name: fade;
+            -webkit-animation-duration: 1.5s;
+            animation-name: fade;
+            animation-duration: 1.5s;
+        }
+        
+        @-webkit-keyframes fade {
+            from {opacity: .4}
+            to {opacity: 1}
+        }
+        
+        @keyframes fade {
+            from {opacity: .4}
+            to {opacity: 1}
+        }
+    /********************/
+
+    .caja-proyecto{
+        padding: 0 0 1.5rem 0;
+    }
+    .informacion-proyecto {
+        padding: 1.5rem;
+    }
+
+    .botonesProyecto {
+        display: flex;
+        justify-content: flex-end;
+    }
+/********************/
